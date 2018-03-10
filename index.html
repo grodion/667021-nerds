@@ -6,7 +6,138 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+  <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo-monochrome">
+          <img src="img/index-logo-monochrome.svg" width="200" height="100" alt="«Логотип»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="clients.html">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <!--Выделил корзину отдельным списком, чтобы потом с ней чтш-нибудь сделать-->
+        <ul>
+          <li><img src="pottle.png" width="20" height="20" alt="«Корзина»"></li>
+          <li><a href="">Корзина</a></li>
+        </ul>
+      </nav>
+  </header>
 
+  <main>
+
+  <h1 class="visually-hidden">Дизайн студия «Nerds»</h1>
+
+    <section>
+      <p>
+        <b>
+          Долго, дорого, скурпулезно.
+        </b>
+          Метематически выверенный дизайн для вашего сайта или мобильного приложения.
+        </p>
+        <a class="button" href="knowmore.html">Узнать больше</a>
+    </section>
+
+    <section class="slide">
+      <ul>
+        <figure class="slide-content">
+          <li><img src="img/slide_1.png" alt="слайд_1"></li>
+          <button>Кнопка1</button>
+          <li><img src="img/slide_2.png" alt="слайд_2"></li>
+          <button>Кнопка2</button>
+          <li><img src="img/slide_3.png" alt="слайд_3"></li>
+          <button>Кнопка3</button>
+        </figure>
+      </ul>
+    </section>
+
+    <section class="service">
+      <h2 class="visually-hidden">Услуги</h2>
+        <ul>
+          <li>
+            <h3>Веб-сайты</h3>
+            Мир никогда не будет прежним после того как увидит ваш сайт!
+            <p><button>Заказать</button></p>
+          </li>
+          <li>
+            <h3>Приложения</h3>
+            Покорите топ-10 приложений в AppStore и Google Play
+            <p><button>Заказать</button></p>
+          </li>
+          <li>
+            <h3>Презентации</h3>
+            Вы даже не подозреваете насколько вы изумительны!
+            <p><button>Заказать</button></p>
+          </li>
+        </ul>
+    </section>
+
+    <section class="specification">
+      <h2 class="visually-hidden">Описание</h2>
+        <b>Мы - маленькая, но гордая дизайн-студия из Краснодара</b>
+        <p>Исповедуем принципы минимализма и чисоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+      <h3>Выполняем заказы на разработку:</h3>
+        <ul>
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      <div class="">
+          <img src="img/index-logo-color.svg" width="300" height="150" alt="«Логотип»">
+              <h3>С 2004 года любим точность во всем:</h3>
+              <!--Показалось мне похожим на таблицу-->
+            <table>
+              <tr>
+                <td>Уровень самоотдачи</td>
+                <td>Соблюдение сроков</td>
+                <td>Минимальная предоплата</td>
+              </tr>
+              <tr>
+                <td>146%</td>
+                <td>100%</td>
+                <td>50%</td>
+              </tr>
+            </table>
+        </div>
+    </Section>
+
+    <section class="partners">
+      <h2 class="visually-hidden">Партнеры</h2>
+      <ul>
+        <li><img src="img/index-logo-partners-htmlacadem.png" width="200" height="100" alt="«Логотип партнера htmlacademy»"></li>
+        <li><img src="img/index-logo-partners-borodinski.png" width="200" height="100" alt="«Логотип партнера borodinski»"></li>
+        <li><img src="img/index-logo-partners-pink.png" width="200" height="100" alt="«Логотип партнера pink»"></li>
+        <li><img src="img/index-logo-partners-mishka.png" width="200" height="100" alt="«Логотип партнера mishka"></li>
+      </ul>
+    </section>
+
+    <section class="contacts">
+      <p class="contacts-address">
+        <b>NЁRDS DESIGN STUDI</b><br>
+        191186, Санкт-Петербург,<br>
+        Б. Конюшенная, д. 19/8<br>
+        тел.+7(812) 111 11 11<br>
+        <button>Напишите нам</button>
+      </p>
+      <div class="map">
+        <img src="img/index-map.png" width="100%" height="500" alt="«Местонахождение на карте»">
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-social">
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+    </div>
+  </footer>
   </body>
 </html>
+
+<!--<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>-->
