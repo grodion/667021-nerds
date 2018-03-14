@@ -8,7 +8,7 @@
 
     <header class="main-header">
         <nav class="main-navigation">
-          <a class="main-header-logo-monochrome">
+          <a class="main-header-logo" href="index.html">
           <img src="img/index-logo-monochrome.svg" width="200" height="100" alt="«Логотип»">
           </a>
           <ul class="site-navigation">
@@ -17,18 +17,118 @@
             <li><a href="E:\Users\Родион\Documents\GitHub\667021-nerds\catalog.html" >Магазин</a></li>
             <li><a href="#" >Контакты</a></li>
           </ul>
-          <!--Выделил корзину отдельным списком, чтобы потом с ней чтш-нибудь сделать-->
           <ul>
             <li><img src="pottle.png" width="20" height="20" alt="«Корзина»"></li>
             <li><a href="">Корзина</a></li>
           </ul>
         </nav>
+        <p><b>Магазин готовых шаблонов</b></p>
     </header>
 
     <main>
 
+      <section class="filters">
+        <h3 class="visually-hidden">Фильтры</h3>
+        <ul>
+          <li>Стоимость:</li>
+            <input type="range" min="0" max="15000" name="slider" value="10000">
+            <p>
+            <label for="price-min">от</label>
+            <input type="text" id="price-min" value="0" >
+            <label for="price-max">до</label>
+            <input type="text" id="price-max" value="15000" >
+            </p>
+          <li>Сетка:</li>
+            <p><input type="radio" name="grid" value="adaptive" checked>Адаптивная</p>
+            <p><input type="radio" name="grid" value="fixed">Фиксированная</p>
+            <p><input type="radio" name="grid" value="plastic">Резиновая</p>
+          <li>Особенности:</li>
+            <p><input type="checkbox" name="features-slide" checked>Слайдер</p>
+            <p><input type="checkbox" name="features-advantage">Блок преимуществ</p>
+            <p><input type="checkbox" name="features-news" checked>Новости</p>
+            <p><input type="checkbox" name="features-gallery">Галерея</p>
+            <p><input type="checkbox" name="features-pottle">Корзина</p>
+        </ul>
+          <input type="submit" name="view" value="Показать">
+          <!--А это не ссылка?-->
+          <!--<a class="button" href="#">Показать</a>-->
+      </section>
 
-
+      <section class="template">
+        <h3 class="visually-hidden">Шаблоны</h3>
+          <div class="sort">
+            Сортировать:
+            <a href="#" class="button-sort">по цене</a>
+            <a href="#" class="button-sort">по типу</a>
+            <a href="#" class="button-sort">по названию</a>
+            <a href="#" class="button-sort-hidden">по возрастанию</a>
+            <a href="#" class="button-sort-hidden">по убыванию</a>
+          </div>
+<!--Разметка шаблонов страниц начало-->
+          <ul>
+            <li>
+              <figure class="catalog-template">
+                <img src="catalog-sedona" alt="template-sedona">
+              </figure>
+                <b>SEDONA</b>
+                <p>Информационный сайт<br>
+                   для туристов</p>
+                <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+            <li>
+              <figure class="catalog-template">
+                <img src="catalog-pink" alt="template-pink">
+              </figure>
+                <b>PINK APP</b>
+                <p>Продуктовый лендинг<br>
+                   приложения для iOS и Android</p>
+                <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+            <li>
+              <figure class="catalog-template">
+                <img src="catalog-borodinski" alt="template-borodinski">
+              </figure>
+                <b>BARBERSHOP</b>
+                <p>Сайт салона красоты.<br>
+                   Для мужчин, да.</p>
+                <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+            <li>
+              <figure class="catalog-template">
+                <img src="catalog-mishka" alt="template-mishka">
+              </figure>
+                <b>MISHKA</b>
+                <p>Интернет-магазин<br>
+                   вязаных игрушек</p>
+                <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+            <li>
+            <figure class="catalog-template">
+              <img src="catalog-aplus" alt="template-aplus">
+            </figure>
+              <b>A PLUS</b>
+              <p>Лендинг курсов повышения<br>
+                 квалификации</p>
+              <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+            <li>
+            <figure class="catalog-template">
+              <img src="catalog-kvast" alt="template-kvast">
+            </figure>
+              <b>КВАСТ</b>
+              <p>Промо-сайт производителя<br>
+                 крафтового кваса</p>
+              <a class="catalog-item" href="#">9 900 РУБ.</a>
+            </li>
+          </ul>
+<!--Разметка шаблонов страниц конец-->
+          <div class="navigation">
+            <a href="navigation-1">1</a>
+            <a href="navigation-2">2</a>
+            <a href="navigation-3">3</a>
+            <a href="navigation-next">Следующая</a>
+          </div>
+      </section>
     </main>
 
     <footer>

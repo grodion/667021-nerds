@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Родион Губкин](https://up.htmlacademy.ru/htmlcss/20/user/667021).
-* Наставник: [Руслан Князев](https://up.htmlacademy.ru/htmlcss/20/user/208301).
+* Наставник: [Алексей Белов](https://up.htmlacademy.ru/htmlcss/20/user/96038).
 
 ---
 
